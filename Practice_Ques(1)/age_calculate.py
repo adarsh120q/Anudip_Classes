@@ -4,9 +4,13 @@ ajay = int(input("Enter age of Ajay: "))
 
 youngest = min(ram, sulabh, ajay)
 
-if youngest == ram:
-    print("Ram is youngest!")
-elif youngest == sulabh:
-    print("Sulabh is youngest!")
+if youngest > 0:
+    if youngest == ram:
+        print("Ram is youngest!")
+    elif youngest == sulabh:
+        print("Sulabh is youngest!")
+    else:
+        print("Ajay is youngest!")
+        
 else:
-    print("Ajay is youngest!")
+    print("Invalid input!")
