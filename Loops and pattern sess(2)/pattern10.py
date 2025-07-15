@@ -16,3 +16,6 @@ for i in range(n-1,0,-1):
     for l in range(65+i,65+n ):
         print(chr(l),end=' ')
     print()
+value = 42
+formatted_str = "Value: %05d" % value
+print(formatted_str)
