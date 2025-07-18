@@ -33,7 +33,7 @@ while True:
         elif choice == 1:
             continue
         else:
-            print("\nInvalid Input!\n")
+            print("\nInvalid Input,\nPlease try again!\n")
 
     elif choice == 2:
         amt = int(input("Enter the amount you want to deposit: "))
@@ -44,7 +44,7 @@ while True:
         elif choice == 1:
             continue
         else:
-            print("\nInvalid Input!\n")
+            print("\nInvalid Input,\nPlease try again!\n")
 
     elif choice == 3:
         print(trans.left_bal())
@@ -54,11 +54,11 @@ while True:
         elif choice == 1:
             continue
         else:
-            print("\nInvalid Input!\n")
+            print("\nInvalid Input,\nPlease try again!\n")
 
     elif choice == 0:
         break
     else:
-        print("\nInvalid input!\n")
+        print("\nInvalid input,\nPlease try again!\n")
 
 print("\nThank You, for using AS Bank!")
