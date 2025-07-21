@@ -1,0 +1,4 @@
+my_list = [3,56,947,5,6,1,3,6,4,9,8,98,65,5,252,4,6,465,654]
+
+print("Largest number:",max(my_list))
+print("Smallest number:", min(my_list))
