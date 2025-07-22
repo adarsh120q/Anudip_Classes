@@ -47,7 +47,7 @@ while True:
 
             item_names.append(new_item)
             quantity = int(input(f"Enter the quantity of {new_item}: "))
-            price = int(input(f"Enter the price of One {new_item}: "))
+            price = int(input(f"Enter the price of {new_item}: "))
             quant_price.append({"Quantity": quantity, "Price": price})
 
             for name, details in zip(item_names, quant_price):
@@ -71,7 +71,7 @@ while True:
                 item_name = input("Enter valid name: ")
 
             quantity = int(input(f"Enter the quantity of {item_name}: "))
-            price = int(input(f"Enter the price of One {item_name}: "))   
+            price = int(input(f"Enter the price of {item_name}: "))   
             items[item_name]['Quantity'] = quantity
             items[item_name]['Price'] = price
 
@@ -113,7 +113,7 @@ while True:
         elif choice == 0:
             break
         else:
-            print("Invalid input!\n")
+            print("Invalid input!")
 
     elif choice == 0:
         break
