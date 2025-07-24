@@ -1,0 +1,1 @@
+def std_data(list(students), tuple(records), dict(inner_part), dict(sub_marks), list(marks), list())
