@@ -1,2 +1,5 @@
 my_tup = (45, 86, 58, 5 , 51, 20, 10, 1)
+tup2 = (86, 58, 5 , 51, 20, 10,)
+tup3  = (45, 86, 58, 5 , 51,)
+print(max())
 print(my_tup.index(max(my_tup)))

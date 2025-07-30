@@ -5,12 +5,10 @@ def classification(my_list):
             result[key] = []
         result[key].append(value)
 
-    # Return full dictionary
     for key, value in result.items():
         print (f"{key} : {value}")  
 
 
-# Initial list of tuples
 list1 = [('fruit', 'apple'), ('fruit', 'banana'), ('color', 'red')]
 
 choice = 1
@@ -23,7 +21,7 @@ if ch == 1:
     while True:
         key = input("Enter category name: ")
         value = input("Enter the value: ")
-        list1.append((key, value))  # Create and add the tuple directly
+        list1.append((key, value))  
 
         choice = int(input("Enter 0 to stop, or any other number to continue: "))
         if choice == 0:
