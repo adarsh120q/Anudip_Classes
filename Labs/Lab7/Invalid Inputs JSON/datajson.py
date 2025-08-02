@@ -1,6 +1,6 @@
 import json
 
-with open("/home/adarshsingh/Anudip_Classes/Lab7/Invalid Inputs JSON/data.json", mode= "r") as file:
+with open("/home/adarshsingh/Anudip_Classes/Labs/Lab7/Invalid Inputs JSON/data.json", mode= "r") as file:
     data = json.load(file)
 
     for book in data:

@@ -1,6 +1,6 @@
 import csv
 
-with open("/home/adarshsingh/Anudip_Classes/Lab7/Missing Data in CSV/missing_data.csv", "r+") as file:
+with open("/home/adarshsingh/Anudip_Classes/Labs/Lab7/Missing Data in CSV/missing_data.csv", "r+") as file:
     csv_reader = csv.reader(file)
     header = next(csv_reader)
     for row in csv_reader:

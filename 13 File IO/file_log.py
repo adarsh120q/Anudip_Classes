@@ -1,7 +1,7 @@
 my_list = list(input("Enter the list items: ").split())
    
 try:
-    file_obj = open("/home/adarshsingh/Anudip_Classes/File IO/error_log.txt", "a+")
+    file_obj = open("/home/adarshsingh/Anudip_Classes/13 File IO/error.txt", "a+")
  
     for item in my_list:
         try:
