@@ -1,13 +1,14 @@
 # 🐍 Anudip_Classes – Python Projects & Assignments
 
 Welcome to my Python learning repository!  
-This repo contains well-structured folders with **assignments, classwork, and mini-projects** completed during my Full Stack Developer training at **Anudip Foundation**.
+This repo contains well-organized folders with **assignments and classwork** I’m completing as part of my ongoing Full Stack Developer training at **Anudip Foundation**.
 
 ---
 
 ## 📚 What's Inside?
 
-Each folder corresponds to a specific Python topic, starting from the basics and going all the way up to object-oriented programming and file handling.
+Each folder represents a key Python topic I’ve covered so far in my Full Stack Developer training at Anudip Foundation.
+From basic syntax to functions, modules, file handling, and more — the content is growing as I continue learning. All topics are practiced through real Python scripts, assignments, and exercises.
 
 | 📁 Folder Name        | 📌 Topics Covered                                 |
 |----------------------|---------------------------------------------------|
