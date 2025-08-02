@@ -48,7 +48,7 @@ By the end of this repo, I’ve gained confidence in:
 I’m a passionate Python Full Stack Developer in training, aiming to break into the tech world with strong foundations and practical knowledge.
 
 🔗 [Connect on LinkedIn](https://www.linkedin.com/in/adarshsingh-120q/)  
-📫 Reach me at: `your.email@example.com`
+📫 Reach me at: `adarshsingh120q@gmail.com`
 
 ---
 
