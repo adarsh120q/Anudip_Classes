@@ -38,7 +38,7 @@ for i in range(1,6):
  # expression for item in iterable
  
 my_data3="Python Programming is easy to learn and Python is versatile"
-print(my_data3.find("Python",4,len(my_data3)))
+print(my_data3.find("Python",4, len(my_data3)))
 print(my_data3.count("Python"))
 print(my_data3.startswith("Python"))
 print(my_data3.endswith("Python"))
