@@ -1,10 +1,10 @@
 import csv
 import json
 
-with open("/home/adarshsingh/Anudip_Classes/Labs/Lab7/JSON file to CSV/data.csv", "w") as file:
+with open("/home/adarshsingh/Anudip_Classes/Labs/Lab7/JSON_file_to_CSV/data.csv", "w") as file:
     csv_writer = csv.writer(file)
 
-    with open("/home/adarshsingh/Anudip_Classes/Labs/Lab7/JSON file to CSV/product.json", "r") as file2:
+    with open("/home/adarshsingh/Anudip_Classes/Labs/Lab7/JSON_file_to_CSV/product.json", "r") as file2:
         data = json.load(file2)
         csv_writer.writerow(data[0].keys())
 

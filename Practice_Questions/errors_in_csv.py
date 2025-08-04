@@ -1,6 +1,6 @@
 import csv
 
-with open("/home/adarshsingh/Anudip_Classes/Practice Questions/incorrect_file.csv", "r") as file:
+with open("/home/adarshsingh/Anudip_Classes/Practice_Questions/incorrect_file.csv", "r") as file:
     csv_reader = csv.reader(file)
     header = next(csv_reader)
 

@@ -1,5 +1,0 @@
-
-20.0
-50.0
-'100' is only divisible by numbers.
-Division by '0' is not possible

@@ -1,6 +1,6 @@
 import json
 
-with open("CSV and Json/myjson.json", mode= "r") as file:
+with open("/home/adarshsingh/Anudip_Classes/14_CSV_and_Json/myjson.json", mode= "r") as file:
     data = json.load(file)
     
     for book in data['books']:
