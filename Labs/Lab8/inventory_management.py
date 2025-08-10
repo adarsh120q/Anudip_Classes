@@ -79,11 +79,11 @@ while choice != 0:
             print("Invalid input!")
 
     elif choice == 0:
-        print("\nInventry operation closed!")
-
+        break
     else:
         print("\nInvalid input!")
         break
 
 
+print("\nInventry operation closed!")
 
