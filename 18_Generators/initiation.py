@@ -16,3 +16,17 @@ gen = (x**2 for x in range(5))
 
 for num in gen:
     print(num)
+
+
+def numbers_with_sum(n):
+    total=0
+    for i in range(1,n+1):
+        yield i
+        total+=i
+    return total
+gen=numbers_with_sum(5)
+try:
+    while True:
+        print(next(gen))
+except StopIteration as e:
+    print("Final sum: ",e.value)
