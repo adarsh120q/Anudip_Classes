@@ -1,0 +1,146 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blinkit</title>
+    <link rel="stylesheet" href="blinkit.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="logo" class="navbar">logo</div>
+        <div id="location-time" class="navbar"></div>
+        <div id="search-bar" class="navbar">
+            
+        </div>
+        <div id="login-signup" class="navbar"></div>
+        <div id="cart" class="navbar"></div>
+    </div>
+</body>
+</html> -->
+
+
+
+<!-- save as index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blinkit — Demo Structure</title>
+
+  <link rel="stylesheet" href="blinkit.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <button class="location-btn">Select Location ▾</button>
+        <a href="#" class="logo">Blinkit</a>
+      </div>
+
+      <form class="search-form" role="search" aria-label="Search products">
+        <input type="search" placeholder="Search milk, bread, sugar..." name="q" />
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+
+      <div class="user-actions">
+        <a class="link login" href="#">Login</a>
+        <button class="cart-btn" aria-label="My Cart">My Cart (0)</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Top categories strip -->
+  <nav class="categories" aria-label="Categories">
+    <div class="cat-inner">
+      <a href="#" class="cat-item">Grocery</a>
+      <a href="#" class="cat-item">Fruits & Veg</a>
+      <a href="#" class="cat-item">Dairy</a>
+      <a href="#" class="cat-item">Snacks</a>
+      <a href="#" class="cat-item">Beverages</a>
+      <a href="#" class="cat-item">Household</a>
+      <a href="#" class="cat-item see-all">see all</a>
+    </div>
+  </nav>
+
+  <!-- Hero / quick delivery CTA -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Everything delivered in minutes</h1>
+      <p>Fastest delivery for essentials — groceries, snacks, dairy & more.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#">Download App</a>
+        <a class="btn btn-ghost" href="#">Explore Categories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Example product/category grid (minimal placeholders) -->
+  <main class="main-content">
+    <section class="featured">
+      <h2>Popular right now</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="thumb"></div>
+          <h3>Milk — 1L</h3>
+          <p class="price">₹55</p>
+        </article>
+        <article class="card">
+          <div class="thumb"></div>
+          <h3>Bread — Wholewheat</h3>
+          <p class="price">₹40</p>
+        </article>
+        <article class="card">
+          <div class="thumb"></div>
+          <h3>Eggs — 6 pcs</h3>
+          <p class="price">₹70</p>
+        </article>
+        <article class="card">
+          <div class="thumb"></div>
+          <h3>Chips — 150g</h3>
+          <p class="price">₹35</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with useful links -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Grocery</a></li>
+          <li><a href="#">Bistro</a></li>
+          <li><a href="#">Recipes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Download App</h4>
+        <p>Get the app for the fastest checkout.</p>
+        <div class="app-links">
+          <a class="app-btn" href="#">App Store</a>
+          <a class="app-btn" href="#">Google Play</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © Blink Commerce Private Limited, 2016-2025
+    </div>
+  </footer>
+</body>
+</html>

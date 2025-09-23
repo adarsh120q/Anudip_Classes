@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<title> Page by- ADARSH </title> 
+<head> <link rel="stylesheet" href="portfolio.css"> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head> 
+<body> 
+    <div id="navbar" class="frame"> 
+        <div id="logo" class="navitems"> 
+            <h1>AS</h1> 
+        </div> 
+            <div id="navoptions" class="navitems"> 
+                <ul id="navlist"> 
+                    <li><a href="#about">About</a></li> 
+                    <li><a href="#skills">Skills</a></li> 
+                    <li><a href="#projects">Projects</a></li> 
+                    <li><a href="#gallery">Gallery</a> 
+                        <div class="dropdown-content"> 
+                            <a class="dropdown-item" href="#">Vdieo</a> 
+                            <a class="dropdown-item" href="#">Photo</a> 
+                        </div> 
+                    </li> 
+                    <li><a href="#contact">Contact me</a></li> 
+                </ul> 
+            </div> 
+            <div id="menu" class="navitems">
+
+            </div> 
+    </div> 
+    <div id="intro"> 
+        <div id="intro-content"> 
+            <p>Hello I'm</p> 
+            <h1>Adarsh Singh</h1> 
+            <h2 aria-live="polite">
+                <span class="title-left">
+                    <span class="title-change" id="left-title">Software Engineer</span>
+                </span>
+                AND
+                <span class="title-right">
+                    <span class="title-change" id="right-title">Python Full Stack Developer</span>
+                </span>
+            </h2>
+
+
+        </div> 
+    </div> 
+    <div id="about"> 
+        <div id="photo_description"> 
+            <div id="photo"> 
+                <img src="Picsart_25-09-21_10-36-28-087.png" alt="Adarsh Singh's image" > 
+            </div> 
+            <div id="description"> 
+                <p>Hello! I'm Adarsh Singh, a passionate developer who loves building cool things.</p> 
+                <h2>Welcome to my Portfolio!</h2> 
+                <p>Computer Science graduate skilled in Python, Machine Learning, and Full-Stack Development. Experienced in building AI chatbots, predictive ML models, and scalable web apps using Flask and React. Seeking opportunities in Data Science, ML Engineering, or Full-Stack Development.</p> 
+            </div> 
+        </div> 
+    </div> 
+    <div id="skills"> 
+        <div> 
+            <h1>Skills</h1> 
+        </div> 
+    </div> 
+    <div id="projects">
+        <h1>Projects</h1>
+    </div> 
+    <div id="gallery">
+        <h1>Gallery</h1>
+    </div> 
+    <div id="contact">
+        <h1>Contacts</h1>
+    </div> 
+    <script> // Smooth scroll with easing effect 
+    document.querySelectorAll('li a').forEach(anchor => { 
+        anchor.addEventListener('click', function (e) { 
+            e.preventDefault(); 
+            const targetId = this.getAttribute('href').substring(1); 
+            const target = document.getElementById(targetId); 
+            window.scrollTo({ 
+                top: target.offsetTop - 50, // adjust for navbar height 
+                behavior: 'smooth' 
+            }); 
+        }); 
+    }); 
+
+
+            
+    const leftTitles = ["Software Engineer", "ML Engineer", "Python Full Stack Developer"];
+    const rightTitles = ["Python Full Stack Developer", "Software Engineer", "ML Engineer"];
+
+    let leftIndex = 0;
+    let rightIndex = 0;
+    let isLeftTurn = true;
+
+    function changeTitle() {
+        if (isLeftTurn) {
+            leftIndex = (leftIndex + 1) % leftTitles.length;
+            animateText("left-title", leftTitles[leftIndex]);
+        } else {
+            rightIndex = (rightIndex + 1) % rightTitles.length;
+            animateText("right-title", rightTitles[rightIndex]);
+        }
+        isLeftTurn = !isLeftTurn;
+    }
+
+    function animateText(id, newText) {
+        const el = document.getElementById(id);
+        el.style.transform = "translateY(100%)";
+        el.style.opacity = "0";
+        setTimeout(() => {
+            el.textContent = newText;
+            el.style.transform = "translateY(100%)";
+            setTimeout(() => {
+                el.style.transform = "translateY(0)";
+                el.style.opacity = "1";
+            }, 50);
+        }, 300);
+    }
+
+    setInterval(changeTitle, 3000);
+
+
+
+    </script> 
+</body>
+</html>
