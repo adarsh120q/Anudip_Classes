@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("login_bg.jpg");
+            height: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        form{
+            background-color: rgba(247, 206, 160, 0.6);
+            font-size: 25px;
+            margin-top: 125px;
+            border: 5px solid rgb(172, 146, 128);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px black;
+        }
+        th{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(94, 82, 65);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            color: white;
+        }
+        input, Select{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table border="0" cellspacing="0" cellpadding="10">
+            <tr>
+                <th colspan="2">Student Registration form</th>
+            </tr>
+            <tr>
+                <td>Roll number :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Student name :</td>
+                <td><input class="name" type="text" placeholder="First name" required> <input class="name" type="text" placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth :</td>
+                <td><input type="date"> </td>
+            </tr>
+            <tr>
+                <td>Mobile number :</td>
+                <td><Select name="option">
+                        <option value="option1">+91</option>    
+                        <option value="option1">+92</option>  
+                    </Select>
+                    <input type="number"> </td>
+            </tr>
+            <tr>
+                <td>Email id :</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td><input type="radio" name="mss"> Male  <input type="radio"> Female</td>
+            </tr>
+            <tr>
+                <td>Department :</td>
+                <td><input type="checkbox"> CSE <input type="checkbox"> IT <input type="checkbox"> ECE <input type="checkbox"> Civil <input type="checkbox"> Mechanical</td>
+            </tr>
+            <tr>
+                <td>Course :</td>
+                <td><Select name="option">
+                        <option value="option1">1</option>    
+                        <option value="option1">2</option>  
+                    </Select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
